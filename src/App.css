@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  letter-spacing: .3em;
+  font-weight: 800;
+}
+.darkButton{
+  padding: 0 1rem;
+}
+h2 {
+  color: rgb(119, 8, 101);
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerAndDarkbutton {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
+}
+
+.mainDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin: 2em;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  margin: 1em 2.75em;
+  padding: .1em;
+  font-size: 14px;
+  background: radial-gradient(circle, rgb(249, 225, 138) 9%, rgb(236, 150, 2) 100%);
+  /* background: radial-gradient(circle, rgb(255, 255, 254) 9%, rgb(202, 201, 197) 100%); */
+}
+.LINK{
+  text-decoration: none;
+}
+.county-img {
+  height: 10rem;
+  width: 100%;
+}
+
+.search-input {
+  background-color: rgb(248, 225, 205);
+  /* search icon added */
+  background-image: url("../public/search-interface-symbol.png");
+  background-position-x: 95%;
+  background-position-y:center;
+  background-size: 1.1em;
+  background-repeat: no-repeat;
+  /* search icon added above*/
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 2%;
+  width: 50vw;
+  border: .5px solid rgb(199, 199, 199);
+}
+.search-input:hover{
+  background-color: rgb(251, 174, 106);
+  transition: .75s ease-out;
+  font-weight: 600;
+}
+.select {
+  background-color: rgb(248, 225, 205);
+  font-size: 1rem;
+  padding: 1%;
+  width: 15vw;
+  border: none;
+  font-weight: 600;
+}
+
+.searchAndselect {
+  display: flex;
+  margin: 2em 5em;
+  justify-content: space-between;
+  font-size: 14px;
+  gap: 3em
+}
+
+/* single country details  */
+.backButton{
+  outline: .5px solid rgb(121, 117, 117);
+  border:none;
+  padding: 5px 25px;
+  margin:1em;
+  font-weight: 600;
+  
+}
+.detailDiv{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  margin: 5em;
+}
+.single-county-img{
+  width: auto;
+  height: auto;
+}
+.leftFlag{
+  margin-bottom: 2em;
+  display: flex;
+  align-content: center;
+  margin-top: 2em;
+}
+.rightTexts{
+  margin-top: -3;
+  
+}
+.midDetail{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1em 0;
+}
+.midDetail-right{
+  
+}
+.borders{
+  display: flex;
+  justify-content: space-around;
+  gap: 2em;
+}
+.footer-div{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 14vh;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media only screen and (max-width: 1200px) {
+  .headerAndDarkbutton {
+    padding: 1em;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .mainDiv {
+    display: grid;
+    grid-template-columns: 1fr;
   }
-  to {
-    transform: rotate(360deg);
+
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
   }
+
+  .search-input {
+    padding: 3%;
+    width: 95%;
+    border: 1px solid grey;
+  }
+
+  .searchAndselect {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1.25em;
+  }
+
+  .select {
+    padding: 3%;
+    width: 95%;
+    border: 1px solid grey;
+  }
+  /* single country */
+    .detailDiv {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows:auto;
+      margin: 1em;
+      height: 130vh;
+    }
+    .midDetail {
+      display: grid;
+      grid-template-columns: 1fr;
+      
+    }
 }
