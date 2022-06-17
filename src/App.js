@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import React, { useState} from "react";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import CountryDetail from "./components/CountryDetail";
 import Footer from "./components/footer";
 import "./App.css";
 
-let countries = require("./countriesAll.json");
+// let countries = require("./countriesAll.json");
 
 function App() {
   const [darkMode, setDarkMode] = useState("white");
