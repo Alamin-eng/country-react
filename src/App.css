@@ -105,8 +105,8 @@ h2 {
   margin: 5em;
 }
 .single-county-img{
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 32vh;
 }
 .leftFlag{
   margin-bottom: 2em;
