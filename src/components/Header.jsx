@@ -7,7 +7,7 @@ function Header({darkMode,headerBackground,darkText,sunOrMoon}){
         headerAndDarkbutton" style={{
                 backgroundColor:`${headerBackground}`}}>
             <h1 >Where in the world ? </h1> 
-            <button className="darkButton rounded" onClick ={(e) => darkMode(e)}>
+            <button className="darkButton rounded" onClick ={(e) => darkMode(e)} >
                 <i class={`fa fa-${sunOrMoon}-o`} style={{paddingRight:'.4em',fontWeight:'bolder'}}></i>{darkText}</button>
         </div>
     )

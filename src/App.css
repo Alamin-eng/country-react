@@ -131,6 +131,7 @@ h2 {
   justify-content: space-around;
   gap: 2em;
 }
+
 .footer-div{
   display: flex;
   align-items: center;
