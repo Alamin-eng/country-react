@@ -123,9 +123,7 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
   padding: 1em 0;
 }
-.midDetail-right{
-  
-}
+
 .borders{
   display: flex;
   justify-content: space-around;

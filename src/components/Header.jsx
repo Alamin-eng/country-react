@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 function Header({darkMode,headerBackground,darkText,sunOrMoon}){
 
@@ -13,3 +13,4 @@ function Header({darkMode,headerBackground,darkText,sunOrMoon}){
     )
 }
 export default Header;
+
