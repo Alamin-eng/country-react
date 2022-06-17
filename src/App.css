@@ -41,7 +41,7 @@ h2 {
   margin: 1em 2.75em;
   padding: .1em;
   font-size: 14px;
-  background: radial-gradient(circle, rgb(249, 225, 138) 9%, rgb(236, 150, 2) 100%);
+  background: radial-gradient(circle, rgb(247, 225, 148) 9%, rgb(245, 160, 13) 100%);
   /* background: radial-gradient(circle, rgb(255, 255, 254) 9%, rgb(202, 201, 197) 100%); */
 }
 .LINK{
@@ -105,7 +105,7 @@ h2 {
   margin: 5em;
 }
 .single-county-img{
-  width: auto;
+  width: 100%;
   height: auto;
 }
 .leftFlag{
@@ -183,4 +183,5 @@ h2 {
       grid-template-columns: 1fr;
       
     }
+    
 }
