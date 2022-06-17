@@ -90,6 +90,10 @@ h2 {
 }
 
 /* single country details  */
+.details-h2{
+  font-weight: bolder;
+  color:rgb(223, 5, 5)
+}
 .backButton{
   outline: .5px solid rgb(121, 117, 117);
   border:none;
@@ -114,9 +118,8 @@ h2 {
   align-content: center;
   margin-top: 2em;
 }
-.rightTexts{
-  margin-top: -3;
-  
+.rightTexts {
+  margin-top: -1em;
 }
 .midDetail{
   display:grid;
@@ -183,5 +186,7 @@ h2 {
       grid-template-columns: 1fr;
       
     }
-    
+    .rightTexts {
+      margin-top: -6em;
+    }
 }

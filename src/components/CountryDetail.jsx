@@ -15,7 +15,7 @@ function CountryDetail(){
                         <img src={`${country.flags.png}`} className="img-fluid single-county-img" alt={`flag of ${country.name}`} />
                     </div>
                         <div className="rightTexts">
-                            <h2 className="text-primary">{country.name}</h2>
+                            <h2 className="details-h2">{country.name}</h2>
                             <div className="midDetail">
                                 <div>
                                     <p><b>Native Name :</b>{ country.nativeName && ` ${country.nativeName}`}</p>
@@ -42,4 +42,3 @@ function CountryDetail(){
 }
 export default CountryDetail;
 
-    
