@@ -13,7 +13,7 @@ h1 {
   font-weight: 800;
 }
 .darkButton{
-  padding: 0 1rem;
+  padding: 0 .7rem;
 }
 h2 {
   color: rgb(119, 8, 101);
@@ -41,8 +41,7 @@ h2 {
   margin: 1em 2.75em;
   padding: .1em;
   font-size: 14px;
-  background: radial-gradient(circle, rgb(247, 225, 148) 9%, rgb(245, 160, 13) 100%);
-  /* background: radial-gradient(circle, rgb(255, 255, 254) 9%, rgb(202, 201, 197) 100%); */
+  background: radial-gradient(circle, rgb(249, 224, 133) 9%, rgb(244, 159, 13) 100%);
 }
 .LINK{
   text-decoration: none;
@@ -132,12 +131,25 @@ h2 {
   justify-content: space-around;
   gap: 2em;
 }
-
-.footer-div{
+/* footer */
+.fontawe {
+  font-size: 1.75em;
+}
+.footer {
+  height: 10rem;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: 14vh;
-  font-weight: 600;
+  gap: .6em;
+  font-size: .95em;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  color: blue;
 }
 
 @media only screen and (max-width: 1200px) {
