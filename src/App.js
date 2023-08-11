@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import CountryDetail from "./components/CountryDetail";
 import Footer from "./components/footer";
+import FlyToCountry from "./components/FlyToCountry";
 import "./App.css";
 
 // let countries = require("./countriesAll.json");
@@ -46,6 +47,7 @@ function App() {
           darkMode={handler}
           sunOrMoon={sunOrMoon}
         />
+        <FlyToCountry />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/country-details" element={<CountryDetail />} />
@@ -58,20 +60,3 @@ function App() {
 
 export default App;
 
-//return (
-//   <div className="App">
-//     <Header className="App-header" />
-//     <Search
-//       searchInput={searchTerm}
-//       setSearchInput={handleSearch}
-//       region={filterRegion}
-//       setRegion={handleregion}
-//     />
-//     <Main
-//       data={allCountries}
-//       searchInput={searchTerm}
-//       regionInput={filterRegion}
-//     />
-//     {/* <CountryDetail data = {allCountries} /> */}
-//   </div>
-// );
