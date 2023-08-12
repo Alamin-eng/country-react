@@ -1,6 +1,7 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Saira+Ste');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 body {
   margin: 0;
@@ -42,7 +43,7 @@ h2 {
   margin: 1em 2.75em;
   padding: .1em;
   font-size: 14px;
-  background: radial-gradient(circle, rgb(249, 224, 133) 9%, rgb(244, 159, 13) 100%);
+  background: radial-gradient(circle, rgb(245, 224, 149) 9%, rgb(249, 165, 20) 100%);
 }
 .LINK{
   text-decoration: none;
@@ -156,7 +157,7 @@ h2 {
 /* fly to a country  */
 .fly-div{
   position: relative;
-  height: 35vh;
+  height: 34vh;
   width: 800px;
   max-width: 100vw;
   margin: 0 auto;
@@ -183,12 +184,12 @@ h2 {
   width: 100%;
   height: 100%;
   margin: 0;
-  font-weight: bolder ;
+  font-weight: bold ;
   font-size: 8em;
   text-transform: uppercase;
   background-color: #ffffff;
   mix-blend-mode: screen;
-  font-family: "Saira Stencil One", cursive;
+  font-family: 'Caprasimo', cursive;
 }
 
 @media only screen and (max-width: 980px) {
@@ -241,7 +242,7 @@ h2 {
       margin-top: -6em;
     }
     .fly-h2 {
-    font-size: 4.25rem;
+    font-size: 4rem;
     }
  
 }
