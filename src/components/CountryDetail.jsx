@@ -8,7 +8,7 @@ function CountryDetail(){
    const location = useLocation()
    const country = location.state.countryDetail
     return (
-        <div>
+        <div style={{margin:"1.1em 0"}}>
             <Link to="/"> <button className="backButton rounded shadow"> Back</button></Link>
                 <div className="detailDiv">
                     <div className="leftFlag">
