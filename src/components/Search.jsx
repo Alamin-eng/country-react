@@ -15,7 +15,7 @@ const Search = ({ searchInput, setSearchInput, region, setRegion}) => {
         />
       </form>
       <select className="select rounded" value={region} onChange ={e => setRegion(e)} >
-        <option value='all' >All</option>
+        <option value='all' >All continent</option>
         <option value='asia' >Asia</option>
         <option value='europe'>Europe</option>
         <option value='americas'>America</option>

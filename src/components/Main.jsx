@@ -5,7 +5,7 @@ function Main({ data, searchInput,regionInput, index }) {
   
   const dataManipulation = data
     .filter((e) => (e.name && e.name.toLowerCase().includes(searchInput.toLowerCase())) || 
-    (e.capital && e.capital.toLowerCase().includes(searchInput.toLowerCase()))) // needed to wrap both || conditions inside parenthesis to work both together at the same time. If use without wraping them it does not work , and only one of them either name or capital search works
+    (e.capital && e.capital.toLowerCase().includes(searchInput.toLowerCase()))) // needed to wrap both || conditions inside parenthesis to work both together at the same time. If use without wraping then it does not work , and only one of them either name or capital search works
     .filter((e) => regionInput === 'all' || (e.region && e.region.toLowerCase() === regionInput.toLowerCase()))
 
   return (
