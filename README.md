@@ -24,7 +24,9 @@ A responsive front-end project built with **React.js**, showcasing information f
 
 ## 🌟 Installation  
 
-1. **Clone the repository**:  
-   ```bash  
-   git clone https://github.com/your-username/country-react.git  
-   cd country-react
+```bash
+$ git clone ...       # clone this project to your local machine
+$ cd country-react    # go to project folder
+$ npm install         # install dependencies
+$ npm run start       # run it locally
+```
