@@ -35,4 +35,4 @@ If you have any feedback or would like to discuss this project, feel free to rea
 
 Email: mohammedalaminruben@gmail.com
 
-LinkedIn: LinkedIn Profile
+LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/mohammad-a-846376220/)
