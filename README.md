@@ -30,3 +30,9 @@ $ cd country-react    # go to project folder
 $ npm install         # install dependencies
 $ npm run start       # run it locally
 ```
+## Contact
+If you have any feedback or would like to discuss this project, feel free to reach out:
+
+Email: mohammedalaminruben@gmail.com
+
+LinkedIn: LinkedIn Profile
